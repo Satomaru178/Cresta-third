@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* ------------------- */
+/* base
+/* ------------------- */
+html {
+  font-size: 100%;
+}
+body {
+  font-family:
+    'Montserrat',
+    "游ゴシック体",
+    YuGothic,
+    "游ゴシック Medium",
+    "Yu Gothic Medium",
+    "游ゴシック",
+    "Yu Gothic",
+    sans-serif;
+  letter-spacing: 0.05em;
+}
+img {
+  width: 100%;
+  vertical-align: bottom;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
