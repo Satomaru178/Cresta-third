@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+  font-family: 'Montserrat', "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
   letter-spacing: 0.05em;
   margin: 0 auto;
 }
@@ -188,17 +188,32 @@ li {
   font-weight: 800;
 }
 
-/* ------------------- */
-/* first-view
-/* ------------------- */
-.fv {
+#main {
+  /* ------------------- */
+  /* first-view
+  /* ------------------- */
+  /* ------------------- */
+  /* about
+  /* ------------------- */
+  /* ------------------- */
+  /* works&culture
+  /* ------------------- */
+  /* ------------------- */
+  /* topics
+  /* ------------------- */
+  /* ------------------- */
+  /* contact
+  /* ------------------- */
+}
+
+#main .fv {
   height: 740px;
   width: 100%;
   margin-bottom: 120px;
   position: relative;
 }
 
-.fv .fv-img {
+#main .fv .fv-img {
   height: 640px;
   width: 1100px;
   position: absolute;
@@ -207,7 +222,7 @@ li {
   z-index: 2;
 }
 
-.fv .fv-bg-black {
+#main .fv .fv-bg-black {
   width: 780px;
   height: 740px;
   background-color: #222;
@@ -216,7 +231,7 @@ li {
   right: 0;
 }
 
-.fv .fv-copy {
+#main .fv .fv-copy {
   position: absolute;
   top: 161px;
   right: 194px;
@@ -224,25 +239,22 @@ li {
   z-index: 3;
 }
 
-.fv .fv-copy .copy-small {
+#main .fv .fv-copy .copy-small {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-.fv .fv-copy .copy-big {
+#main .fv .fv-copy .copy-big {
   font-size: 72px;
   font-weight: 800;
 }
 
-/* ------------------- */
-/* about
-/* ------------------- */
-#about {
+#main #about {
   margin-bottom: 80px;
 }
 
-#about .sec-wrapper {
+#main #about .sec-wrapper {
   background-image: url(../img/about-img@2x-min.jpg);
   background-size: cover;
   padding-top: 110px;
@@ -250,87 +262,78 @@ li {
   height: 607px;
 }
 
-#about .sec-wrapper .sec-inner {
+#main #about .sec-wrapper .sec-inner {
   height: 387px;
   width: 590px;
   background-color: rgba(255, 255, 255, 0.95);
   padding: 50px 30px;
 }
 
-#about .sec-wrapper .sec-inner .sec-text {
+#main #about .sec-wrapper .sec-inner .sec-text {
   line-height: 2rem;
   letter-spacing: normal;
 }
 
-/* ------------------- */
-/* works&culture
-/* ------------------- */
-.works_and_culture {
+#main .works_and_culture {
   margin-bottom: 60px;
 }
 
-.works_and_culture .sec-img {
+#main .works_and_culture .sec-img {
   padding-bottom: 30px;
 }
 
-/* ------------------- */
-/* topics
-/* ------------------- */
-#topics {
+#main #topics {
   padding: 60px 0;
 }
 
-#topics .topic-contents {
+#main #topics .topic-contents {
   width: 65%;
   margin-left: auto;
 }
 
-#topics .topic-contents .topic-date {
+#main #topics .topic-contents .topic-date {
   font-size: 10px;
   font-weight: bold;
   color: #cecece;
 }
 
-#topics .topic-contents .topic-text {
+#main #topics .topic-contents .topic-text {
   padding: 13px 0;
   border-bottom: 1px solid #ddd;
   font-size: 14px;
   font-weight: bold;
 }
 
-#topics .topic-contents .topic-text:not(:last-of-type) {
+#main #topics .topic-contents .topic-text:not(:last-of-type) {
   margin-bottom: 32px;
 }
 
-#topics .link-btn {
+#main #topics .link-btn {
   text-align: right;
 }
 
-/* ------------------- */
-/* contact
-/* ------------------- */
-#contact {
+#main #contact {
   padding: 60px 0 120px;
 }
 
-#contact .sec-wrapper {
+#main #contact .sec-wrapper {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-#contact .sec-wrapper .sec-contents {
+#main #contact .sec-wrapper .sec-contents {
   width: 50%;
   padding-right: 80px;
   font-size: 16px;
 }
 
-#contact .sec-wrapper .sec-contents .sec-text {
+#main #contact .sec-wrapper .sec-contents .sec-text {
   line-height: 2rem;
   letter-spacing: normal;
 }
 
-#contact .sec-wrapper .sec-img {
+#main #contact .sec-wrapper .sec-img {
   height: 390px;
   width: 580px;
 }
