@@ -58,12 +58,6 @@
           font-weight: bold;
           margin-bottom: 30px;
         }
-        .sec-text {
-          line-height: 2;
-          p {
-            margin-bottom: 40px;
-          }
-        }
       }
     }
   }
@@ -71,11 +65,34 @@
   /* ceo-message
   /* ------------------- */
   #ceo-message {
+    margin-top: 144px;
+    margin-bottom: 120px;
     .sec-wrapper {
-      
+      position: relative;
+      .sec-image {
+        width: 420px;
+        position: absolute;
+        top: -144px;
+      }
+      .sec-inner {
+        width: 770px;
+        background-color: #f0f0f0;
+        padding: 120px 185px 90px;
+        margin-left: auto;
+        z-index: -1;
+      }
     }
   }
   /* ------------------- */
   /* company
   /* ------------------- */
+  #company {
+    hr {
+      border: none;
+      height: 1px;
+      background-color: #ddd;
+      margin-bottom: 20px;
+    }
+    
+  }
 }
