@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+  font-family: 'Montserrat', "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
   letter-spacing: 0.05em;
   margin: 0 auto;
 }
@@ -75,6 +75,18 @@ li {
 
 .link-btn a:hover {
   opacity: .7;
+}
+
+.centering {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 /* ------------------- */
@@ -243,9 +255,6 @@ li {
 }
 
 #main .fv .fv-copy {
-  position: absolute;
-  top: 161px;
-  right: 194px;
   color: #fff;
   z-index: 3;
   text-transform: uppercase;
