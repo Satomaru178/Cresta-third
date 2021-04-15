@@ -1,0 +1,70 @@
+/* ------------------- */
+/* base
+/* ------------------- */
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family:
+    'Montserrat',
+    "游ゴシック体",
+    YuGothic,
+    "游ゴシック Medium",
+    "Yu Gothic Medium",
+    "游ゴシック",
+    "Yu Gothic",
+    sans-serif;
+  letter-spacing: 0.05em;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.flex-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sec-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+.sec-title {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.link-btn {
+  margin-top: 30px;
+
+  a {
+    text-align: center;
+    background-color: #222;
+    width: 160px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 36px;
+    display: inline-block;
+    transition: .3s;
+
+    &:hover {
+      opacity: .7;
+    }
+  }
+}
