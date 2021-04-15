@@ -50,6 +50,15 @@ li {
   text-transform: uppercase;
 }
 
+.sec-text {
+  line-height: 2;
+  p {
+    &:not(:last-of-type) {
+      margin-bottom: 40px;
+    }
+  }
+}
+
 .link-btn {
   margin-top: 30px;
 
