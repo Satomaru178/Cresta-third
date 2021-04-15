@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+  font-family: 'Montserrat', "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
   letter-spacing: 0.05em;
   margin: 0 auto;
 }
@@ -75,6 +75,18 @@ li {
 
 .link-btn a:hover {
   opacity: .7;
+}
+
+.centering {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 /* ------------------- */
@@ -240,11 +252,9 @@ li {
 }
 
 #main .fv .fv-copy {
-  position: absolute;
-  top: 161px;
-  right: 194px;
   color: #fff;
   z-index: 3;
+  text-transform: uppercase;
 }
 
 #main .fv .fv-copy .copy-small {
@@ -291,11 +301,32 @@ li {
   z-index: -1;
 }
 
+#main #company {
+  margin-bottom: 120px;
+}
+
 #main #company hr {
   border: none;
   height: 1px;
   background-color: #ddd;
-  margin-bottom: 20px;
+}
+
+#main #company .company-info {
+  max-width: 800px;
+  margin-left: auto;
+  margin-bottom: 40px;
+}
+
+#main #company .company-info .info-content {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+#main #company .company-info .info-content dt {
+  width: 144px;
 }
 
 /* ------------------- */
