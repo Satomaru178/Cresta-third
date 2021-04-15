@@ -44,6 +44,15 @@ li {
   font-size: 32px;
   font-weight: 800;
   margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.sec-text {
+  line-height: 2;
+}
+
+.sec-text p:not(:last-of-type) {
+  margin-bottom: 40px;
 }
 
 .link-btn {
@@ -51,6 +60,7 @@ li {
 }
 
 .link-btn a {
+  text-transform: uppercase;
   text-align: center;
   background-color: #222;
   width: 160px;
@@ -124,6 +134,7 @@ li {
 
 #header .header-inner #nav a {
   color: #fff;
+  text-transform: uppercase;
 }
 
 #header .header-inner .menu-btn {
@@ -237,6 +248,7 @@ li {
   right: 194px;
   color: #fff;
   z-index: 3;
+  text-transform: uppercase;
 }
 
 #main .fv .fv-copy .copy-small {
