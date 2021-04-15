@@ -1,0 +1,144 @@
+#main {
+  /* ------------------- */
+  /* first-view
+  /* ------------------- */
+  .fv {
+    height: 740px;
+    width: 100%;
+    margin-bottom: 120px;
+    position: relative;
+
+    .fv-img {
+      height: 640px;
+      width: 1100px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 2;
+    }
+
+    .fv-bg-black {
+      width: 780px;
+      height: 740px;
+      background-color: #222;
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+
+    .fv-copy {
+      color: #fff;
+      z-index: 3;
+      text-transform: uppercase;
+
+      .copy-small {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      .copy-big {
+        font-size: 72px;
+        font-weight: 800;
+      }
+    }
+  }
+
+  /* ------------------- */
+  /* about
+  /* ------------------- */
+  #about {
+    margin-bottom: 80px;
+
+    .sec-wrapper {
+      background-image: url(../img/about-img@2x-min.jpg);
+      background-size: cover;
+      padding-top: 110px;
+      padding-left: 50px;
+      height: 607px;
+
+      .sec-inner {
+        height: 387px;
+        width: 590px;
+        background-color: rgba($color: #fff, $alpha: .95);
+        padding: 50px 30px;
+
+        .sec-text {
+          line-height: 2rem;
+          letter-spacing: normal;
+        }
+      }
+    }
+  }
+
+  /* ------------------- */
+  /* works&culture
+  /* ------------------- */
+  .works_and_culture {
+    margin-bottom: 60px;
+
+    .sec-img {
+      padding-bottom: 30px;
+    }
+  }
+
+  /* ------------------- */
+  /* topics
+  /* ------------------- */
+  #topics {
+    padding: 60px 0;
+
+    .topic-contents {
+      width: 65%;
+      margin-left: auto;
+
+      .topic-date {
+        font-size: 10px;
+        font-weight: bold;
+        color: #cecece;
+      }
+
+      .topic-text {
+        padding: 13px 0;
+        border-bottom: 1px solid #ddd;
+        font-size: 14px;
+        font-weight: bold;
+
+        &:not(:last-of-type) {
+          margin-bottom: 32px;
+        }
+      }
+    }
+
+    .link-btn {
+      text-align: right;
+    }
+  }
+
+  /* ------------------- */
+  /* contact
+  /* ------------------- */
+  #contact {
+    padding: 60px 0 120px;
+
+    .sec-wrapper {
+      align-items: center;
+
+      .sec-contents {
+        width: 50%;
+        padding-right: 80px;
+        font-size: 16px;
+
+        .sec-text {
+          line-height: 2rem;
+          letter-spacing: normal;
+        }
+      }
+
+      .sec-img {
+        height: 390px;
+        width: 580px;
+      }
+    }
+  }
+}
